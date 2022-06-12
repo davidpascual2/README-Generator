@@ -20,10 +20,15 @@ function renderLicenseSection(license) {
     if(license === 'none') {
         return ''
     } else if(license === 'MIT', 'Apache',"BSD",'GNU','Mozilla') { 
-        return //license section
+        return `${license}](https://img.shields.io/badge/license-${license}-yellowg)`;
     }
-}
+};
 //create if statemnt for each license case 
+// switch(data.license) {
+//     case 1:
+//         license = 'MIT';
+//         break;
+// }
 
 //create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -40,17 +45,15 @@ function generateMarkdown(data) {
     * [license](#license)
     * [Contact](#contract)
     ## Installation
-    The following dependacies must be installed to run this application: inquire, fs, util
-    # Usage
-    * once everything needed is installed, run the application by typing node index.js into the terminal
-    * answer the prompted questions. press enter after every question to proceed
-    * once all questions are answered, a new file will be created containing all README information
+    ${data.installation}
+    ## Usage
+    ${data.usage}
     ## License
     ${renderLicenseSection(data.license)} This project is ${data.license} licensed.
     ## Author
     GitHub: ${data.username}
-    Email: ${data.Email}
+    Email: ${data.email}
     `;
   }
 
-  module.exports = generateMarkdown;
+ module.exports = generateMarkdown;

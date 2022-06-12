@@ -35,15 +35,16 @@ inquirer
             name: 'test-instructions',
         },
         {
-            type: "checkbox",
+            type: "list",
             message: "enter licenses",
-            name: "licenses",
+            name: "license",
             choices: [
                 'MIT',
                 'Apache',
                 "BSD",
                 'GNU',
                 'Mozilla',
+                'none',
             ]
         },
         {
@@ -59,5 +60,9 @@ inquirer
     ])
 
 //create a function to write README file
+function writeToFile(fileName, data) {
+    
+}
 
 //create function to initialize app
+function init() {}

@@ -1,8 +1,8 @@
 
-    # README-Generator 
+    # README-generator 
     ![MIT](https://img.shields.io/badge/license-MIT-yellowg)
     ## Description
-    example
+    description here
     ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
@@ -11,9 +11,9 @@
     * [license](#license)
     * [Contact](#contract)
     ## Installation
-    install this
+    none
     ## Usage
-    usage here
+    
     ## License
     MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
     ## Author

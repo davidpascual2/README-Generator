@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generate = require('./generateMarkdown')
+const generate = require('./generateMarkdown');
+const CheckboxPrompt = require('inquirer/lib/prompts/checkbox');
 
 const questions = [
 
@@ -8,11 +9,27 @@ const questions = [
             type: "input",
             message: "what is title of your project?",
             name: 'title',
+            validate: async (input) => {
+                if (input) {
+                    return true
+                } else {
+                    console.log("please enter a project title");
+                    return false
+                }
+            }
         },
         {
             type: "input",
             message: "add a discription to you project",
             name: 'description',
+            validate: async (input) => {
+                if (input) {
+                    return true
+                } else {
+                    console.log("please enter a project description");
+                    return false
+                }
+            }
         },
         {
             type: "input",
@@ -45,17 +62,41 @@ const questions = [
                 'GNU',
                 'Mozilla',
                 'none',
-            ]
+            ],
+            validate: async (input) => {
+                if (Checkbox.length === 1) {
+                    return true
+                } else {
+                    console.log("please pick one license");
+                    return false
+                }
+            }
         },
         {
             type: "input",
             message: "enter github username",
             name: 'username',
+            validate: async (input) => {
+                if (input) {
+                    return true
+                } else {
+                    console.log("please enter a username");
+                    return false
+                }
+            }
         },
         {
             type: "input",
             message: "enter email",
             name: 'email',
+            validate: async (input) => {
+                if (input) {
+                    return true
+                } else {
+                    console.log("please enter an email");
+                    return false
+                }
+            }
         },
     ];
 // .then((response) => {

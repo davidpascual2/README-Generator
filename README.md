@@ -17,6 +17,7 @@ in the terminal type "node ./index.js" and you will be asked a series of questio
 ![MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
 ## Preview
 [walkthrough Video](https://youtu.be/SPURlHr9Dzw)
+
 ![](./assets/README-Gen_SS_1.png)
 ![](./assets/README-Gen-SS_2.png)
 ## Author

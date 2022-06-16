@@ -40,8 +40,8 @@ ${data.usage}
 ## License
 ${renderLicenseSection(data.license)} This project is ${data.license} licensed.
 ## Author
--GitHub: ${data.username}
--Email: ${data.email}`;
+* GitHub: ${data.username}
+* Email: ${data.email}`;
   }
 
  module.exports = generateMarkdown;

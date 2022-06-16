@@ -1,8 +1,8 @@
 
-# readme generator 
+# README-generator 
 ![MIT](https://img.shields.io/badge/license-MIT-yellowg)
 ## Description
-description here
+no
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,9 +13,9 @@ description here
 ## Installation
 no
 ## Usage
-no
+
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
 ## Author
--GitHub: davidpascual2
--Email: exmaple@gmail.com
+-GitHub: davidpasual2
+-Email: example@gmail.com

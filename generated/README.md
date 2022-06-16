@@ -15,7 +15,7 @@
     ## Usage
     
     ## License
-    MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
+    ![MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
     ## Author
     GitHub: davidpascual2
     Email: davidpascual200@gmail.com

@@ -15,6 +15,9 @@ install node.js. once node js is install type "npm i" into the terminal.
 in the terminal type "node ./index.js" and you will be asked a series of questions regarding the README file. Once you have responded to all questions, press enter and all answers will be inputed. 
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
+## Preview
+![](./assets/README-Gen_SS_1.png)
+![](./assets/README-Gen-SS_2.png)
 ## Author
-GitHub: davidpascual2
-Email: davidpascual200@gmail.com
+- GitHub: davidpascual2
+- Email: davidpascual200@gmail.com

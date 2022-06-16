@@ -99,12 +99,6 @@ const questions = [
             }
         },
     ];
-// .then((response) => {
-//     console.log(response);
-//     fs.appendFile('log.txt', JSON.stringify(response, null, '\t'), err =>
-//         err ? console.error(err) : console.log('File Updated!')
-//     );
-// });
 
 //create a function to write README file
 function writeToFile(data) {

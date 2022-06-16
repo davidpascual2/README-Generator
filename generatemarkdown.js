@@ -7,12 +7,7 @@ if(license === 'none') {
 } else { 
     return `![${license}](https://img.shields.io/badge/license-${license}-yellowg)`
 };
-
 };
-
-//create a fuction that returns the license link 
-//if there is no license , retirn an empty string
-
 
 //create a function that returns the license section of README 
 //if there is no license, return an empty string
@@ -20,7 +15,7 @@ function renderLicenseSection(license) {
     if(license === 'none') {
         return 'this project is unlicensed'
     } else if(license === 'MIT', 'Apache',"BSD",'GNU','Mozilla') { 
-        return `${license}](https://img.shields.io/badge/license-${license}-yellowg)`;
+        return `![${license}](https://img.shields.io/badge/license-${license}-yellowg)`;
     }
 };
 

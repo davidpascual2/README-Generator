@@ -1,8 +1,8 @@
 
-# exmaple 
-![GNU](https://img.shields.io/badge/license-GNU-yellowg)
+# readme generator 
+![MIT](https://img.shields.io/badge/license-MIT-yellowg)
 ## Description
-no
+description here
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,11 +11,11 @@ no
 * [license](#license)
 * [Contact](#contract)
 ## Installation
-
+no
 ## Usage
-
+no
 ## License
-GNU](https://img.shields.io/badge/license-GNU-yellowg) This project is GNU licensed.
+![MIT](https://img.shields.io/badge/license-MIT-yellowg) This project is MIT licensed.
 ## Author
 -GitHub: davidpascual2
--Email: davidpascual200@gmail.com
+-Email: exmaple@gmail.com
